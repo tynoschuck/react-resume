@@ -11,6 +11,8 @@ import {
 import GithubIcon from '../components/Icon/GithubIcon';
 import InstagramIcon from '../components/Icon/InstagramIcon';
 import LinkedInIcon from '../components/Icon/LinkedInIcon';
+import StackOverflowIcon from '../components/Icon/StackOverflowIcon';
+import TwitterIcon from '../components/Icon/TwitterIcon';
 //import StackOverflowIcon from '../components/Icon/StackOverflowIcon';
 //import TwitterIcon from '../components/Icon/TwitterIcon';
 import heroImage from '../images/header-background.webp';
@@ -39,8 +41,6 @@ import {
   //TestimonialSection,
   TimelineItem,
 } from './dataDef';
-import TwitterIcon from '../components/Icon/TwitterIcon';
-import StackOverflowIcon from '../components/Icon/StackOverflowIcon';
 
 /**
  * Page meta data
@@ -75,7 +75,7 @@ export const heroData: Hero = {
   description: (
     <>
       <p className="prose-sm text-stone-200 sm:prose-base lg:prose-lg">
-        I'm a London based <strong className="text-stone-100">Front Edn Engineer</strong>, currently working
+        I'm a London based <strong className="text-stone-100">Front End Engineer</strong>, currently working
         at <strong className="text-stone-100">Bytedance</strong> as a content moderator for TikTok.
       </p>
       <p className="prose-sm text-stone-200 sm:prose-base lg:prose-lg">
