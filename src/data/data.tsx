@@ -13,8 +13,6 @@ import InstagramIcon from '../components/Icon/InstagramIcon';
 import LinkedInIcon from '../components/Icon/LinkedInIcon';
 import StackOverflowIcon from '../components/Icon/StackOverflowIcon';
 import TwitterIcon from '../components/Icon/TwitterIcon';
-//import StackOverflowIcon from '../components/Icon/StackOverflowIcon';
-//import TwitterIcon from '../components/Icon/TwitterIcon';
 import heroImage from '../images/header-background.webp';
 import porfolioImage1 from '../images/portfolio/portfolio-1.jpg';
 import porfolioImage2 from '../images/portfolio/portfolio-2.jpg';
@@ -46,8 +44,8 @@ import {
  * Page meta data
  */
 export const homePageMeta: HomepageMeta = {
-  title: 'React Resume Template',
-  description: "Example site built with Tim Baker's react resume template",
+  title: "Tynoshore - Dado Invernizzi's Resume ",
+  description: "Personal resume website built with Tim Baker's react resume template",
 };
 
 /**
@@ -71,17 +69,16 @@ export type SectionId = typeof SectionId[keyof typeof SectionId];
  */
 export const heroData: Hero = {
   imageSrc: heroImage,
-  name: `I'm Dado.`,
+  name: `Hello there!`,
   description: (
     <>
       <p className="prose-sm text-stone-200 sm:prose-base lg:prose-lg">
-        I'm a London based <strong className="text-stone-100">Front End Engineer</strong>, currently working
-        at <strong className="text-stone-100">Bytedance</strong> as a content moderator for TikTok.
+        I'm <strong className="text-stone-100">Dado</strong>, aka <strong className="text-stone-100">tynoschuck</strong> on the web. I'm a London based <strong className="text-stone-100">Front End Engineer</strong>, currently working
+        at <strong className="text-stone-100">Bytedance</strong> as a Pushflow Content Moderator for TikTok. Welcome to my React website!
       </p>
       <p className="prose-sm text-stone-200 sm:prose-base lg:prose-lg">
-        In my free time time, you can catch me training in <strong className="text-stone-100">Muay Thai</strong>,
-        plucking my <strong className="text-stone-100">banjo</strong>, or exploring beautiful{' '}
-        <strong className="text-stone-100">Vancouver Island</strong>.
+        In my free time time, I enjoy <strong className="text-stone-100">playing videogames</strong>,
+        chilling at home with <strong className="text-stone-100">a good book</strong> or <strong className="text-stone-100">solving crosswords</strong>, and <strong className="text-stone-100">walking around London Town</strong> with my girlfriend.
       </p>
     </>
   ),
@@ -235,42 +232,60 @@ export const portfolioItems: PortfolioItem[] = [
  */
 export const education: TimelineItem[] = [
   {
-    date: 'April 2007',
-    location: 'Clown college',
-    title: 'Masters in Beer tasting',
-    content: <p>Describe your experience at school, what you learned, what useful skills you have acquired etc.</p>,
+    date: '2022',
+    location: 'freeCodeCamp',
+    title: "freeCodeCamp Certifications",
+    content: <ul>
+    <li>● <a href='https://www.freecodecamp.org/certification/tynoschuck/javascript-algorithms-and-data-structures'>
+    JavaScript Algorithms and Data Structures</a></li>
+    <li>● <a href='https://www.freecodecamp.org/certification/tynoschuck/front-end-development-libraries'>
+    Front End Development Libraries</a></li>
+  </ul>,
   },
   {
-    date: 'March 2003',
-    location: 'School of Business',
-    title: 'What did you study 101',
-    content: <p>Describe your experience at school, what you learned, what useful skills you have acquired etc.</p>,
+    date: '2020-2022',
+    location: 'LinkedIn',
+    title: "LinkedIn Learning Certifications",
+    content: <ul>
+    <li>● Became a Front-End Web Developer</li>
+    <li>● Become an Advanced WordPress Developer</li>
+    <li>● JavaScript Essential Training</li>
+    <li>● Learning React.js</li>
+  </ul>,
+  },
+  {
+    date: 'April 2016',
+    location: 'University of Milan',
+    title: "Master's Degree in Culture and History of Publishing System",
+    content: <p></p>,
+  },
+  
+  {
+    date: 'September 2012',
+    location: 'Catholic University of the Sacred Heart of Milan',
+    title: "Bachelor's Degree in Languages of Media",
+    content: <p></p>
   },
 ];
 
 export const experience: TimelineItem[] = [
   {
-    date: 'March 2010 - Present',
-    location: 'Awesome Development Company',
-    title: 'Senior UX Engineer',
-    content: (
-      <p>
-        Describe work, special projects, notable achievements, what technologies you have been working with, and
-        anything else that would be useful for an employer to know.
-      </p>
-    ),
+    date: 'June 2019 - Present',
+    location: 'Bytedance Inc.',
+    title: 'TikTok Pushflow Content Moderator',
+    content: 
+    <ul>
+    <li>● Created and efficiently managed a team for the workflow distribution in the Italian market.</li>
+    <li>● Supported the Team Lead with shift coordination, monitored and forecasted the incoming of the content to be
+moderated.</li>
+<li>● Managed and supported the onboarding process of the new joiners.</li>
+<li>● Managed training sessions related to tasks and promotion of company culture.</li>
+<li>● Ensured legal compliance and safety of content uploaded to the short video platforms, as well as the
+development, improvement and maintenance of standards for the security of the online communities.</li>
+  </ul>
+    ,
   },
-  {
-    date: 'March 2007 - February 2010',
-    location: 'Garage Startup Studio',
-    title: 'Junior bug fixer',
-    content: (
-      <p>
-        Describe work, special projects, notable achievements, what technologies you have been working with, and
-        anything else that would be useful for an employer to know.
-      </p>
-    ),
-  },
+
 ];
 
 /**
