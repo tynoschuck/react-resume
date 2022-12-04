@@ -257,12 +257,14 @@ export const education: TimelineItem[] = [
     date: 'April 2016',
     location: 'University of Milan',
     title: "Master's Degree in Culture and History of Publishing System",
+    content: <p></p>,
   },
   
   {
     date: 'September 2012',
     location: 'Catholic University of the Sacred Heart of Milan',
     title: "Bachelor's Degree in Languages of Media",
+    content: <p></p>
   },
 ];
 
@@ -315,8 +317,8 @@ export const testimonial: TestimonialSection = {
  */
 
 export const contact: ContactSection = {
-  headerText: 'Get in touch!',
-  description: 'Feel free to reach out to me in any ways you are more confortable with. You can submit the contact form on your left, or check my social profiles below. So long and thanks for the visit!',
+  headerText: 'Get in touch.',
+  description: 'Here is a good spot for a message to your readers to let them know how best to reach out to you.',
   items: [
     {
       type: ContactType.Email,
