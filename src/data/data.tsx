@@ -166,9 +166,9 @@ export const portfolioItems: PortfolioItem[] = [
     image: porfolioImage1,
   },
   {
-    title: 'Project title 2',
-    description: 'Give a short description of your project here.',
-    url: 'https://timbaker.me',
+    title: 'React Weather App',
+    description: 'A simple app to check weather and temperature created in React',
+    url: 'https://temperaturecontrol.netlify.app/',
     image: porfolioImage2,
   },
   {
