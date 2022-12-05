@@ -16,15 +16,14 @@ import TwitterIcon from '../components/Icon/TwitterIcon';
 import heroImage from '../images/header-background.webp';
 import porfolioImage1 from '../images/portfolio/portfolio-1.jpg';
 import porfolioImage2 from '../images/portfolio/portfolio-2.jpg';
-import porfolioImage3 from '../images/portfolio/portfolio-3.jpg';
+import porfolioImage3 from '../images/portfolio/portfolio-3.png';
 import porfolioImage4 from '../images/portfolio/portfolio-4.jpg';
-import porfolioImage5 from '../images/portfolio/portfolio-5.jpg';
-import porfolioImage6 from '../images/portfolio/portfolio-6.jpg';
+import porfolioImage5 from '../images/portfolio/portfolio-5.png';
+import porfolioImage6 from '../images/portfolio/portfolio-6.png';
 import porfolioImage7 from '../images/portfolio/portfolio-7.jpg';
 import porfolioImage8 from '../images/portfolio/portfolio-8.jpg';
 import porfolioImage9 from '../images/portfolio/portfolio-9.jpg';
 import porfolioImage10 from '../images/portfolio/portfolio-10.jpg';
-import porfolioImage11 from '../images/portfolio/portfolio-11.jpg';
 import profilepic from '../images/profilepic.jpg';
 //import testimonialImage from '../images/testimonial.webp';
 import {
@@ -119,24 +118,7 @@ export const aboutData: About = {
  * Skills section
  */
 export const skills: SkillGroup[] = [
-  {
-    name: 'Spoken languages',
-    skills: [
-      {
-        name: 'Italian',
-        level: 10,
-      },
-      {
-        name: 'English',
-        level: 9,
-      },
-      {
-        name: 'Russian',
-        level: 3,
-      },
-    ],
-  },
-  {
+   {
     name: 'Frontend development',
     skills: [
       {
@@ -153,6 +135,24 @@ export const skills: SkillGroup[] = [
       },
     ],
   },
+  {
+    name: 'Spoken languages',
+    skills: [
+      {
+        name: 'Italian',
+        level: 10,
+      },
+      {
+        name: 'English',
+        level: 9,
+      },
+      {
+        name: 'Russian',
+        level: 2,
+      },
+    ],
+  },
+ 
 ];
 
 /**
@@ -160,21 +160,21 @@ export const skills: SkillGroup[] = [
  */
 export const portfolioItems: PortfolioItem[] = [
   {
-    title: 'Project title 1',
-    description: 'Give a short description of your project here.',
-    url: 'https://timbaker.me',
+    title: 'Pomodoro Timer',
+    description: 'A simple Pomodoro Technique Timer created with Javascript in CodePen',
+    url: 'https://codepen.io/tynoschuck/pen/LYrrxad',
     image: porfolioImage1,
   },
   {
     title: 'React Weather App',
-    description: 'A simple app to check weather and temperature created in React',
+    description: 'A simple app to check weather and temperature created with React',
     url: 'https://temperaturecontrol.netlify.app/',
     image: porfolioImage2,
   },
   {
-    title: 'Project title 3',
-    description: 'Give a short description of your project here.',
-    url: 'https://timbaker.me',
+    title: 'Markup Converter',
+    description: 'A simple markup converter created with React in CodePen',
+    url: 'https://codepen.io/tynoschuck/pen/dyKjvMK',
     image: porfolioImage3,
   },
   {
@@ -184,15 +184,15 @@ export const portfolioItems: PortfolioItem[] = [
     image: porfolioImage4,
   },
   {
-    title: 'Project title 5',
-    description: 'Give a short description of your project here.',
-    url: 'https://timbaker.me',
+    title: 'Drum Machine',
+    description: 'A simple drum machine created with JavaScript in CodePen',
+    url: 'https://codepen.io/tynoschuck/pen/vYrrRqV',
     image: porfolioImage5,
   },
   {
-    title: 'Project title 6',
-    description: 'Give a short description of your project here.',
-    url: 'https://timbaker.me',
+    title: 'Simple Calculator',
+    description: 'A simple calculator created with JavaScript in CodePen',
+    url: 'https://codepen.io/tynoschuck/pen/ExRRord',
     image: porfolioImage6,
   },
   {
@@ -218,12 +218,6 @@ export const portfolioItems: PortfolioItem[] = [
     description: 'Give a short description of your project here.',
     url: 'https://timbaker.me',
     image: porfolioImage10,
-  },
-  {
-    title: 'Project title 11',
-    description: 'Give a short description of your project here.',
-    url: 'https://timbaker.me',
-    image: porfolioImage11,
   },
 ];
 
