@@ -123,15 +123,15 @@ export const skills: SkillGroup[] = [
     skills: [
       {
         name: 'HTML',
-        level: 9,
+        level: 8,
       },
       {
         name: 'CSS',
-        level: 7,
+        level: 6,
       },
       {
         name: 'Javascript',
-        level: 7,
+        level: 8,
       },
     ],
   },
@@ -196,9 +196,9 @@ export const portfolioItems: PortfolioItem[] = [
     image: porfolioImage6,
   },
   {
-    title: 'Project title 7',
-    description: 'Give a short description of your project here.',
-    url: 'https://timbaker.me',
+    title: 'Sample Site',
+    description: 'A sample website builti with React',
+    url: 'https://tyno-model-site.netlify.app/',
     image: porfolioImage7,
   },
   {
@@ -243,7 +243,7 @@ export const education: TimelineItem[] = [
     content: <ul>
     <li>● Became a Front-End Web Developer</li>
     <li>● Become an Advanced WordPress Developer</li>
-    <li>● JavaScript Essential Training</li>
+    <li>● Become a JavaScript Developer</li>
     <li>● Learning React.js</li>
   </ul>,
   },
